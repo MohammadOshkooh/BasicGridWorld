@@ -1,6 +1,8 @@
-# Basic GridWorld: Tabular Q-Learning
+# Basic GridWorld: Tabular Q-Learning (From Scratch)
 
 A 10×10 deterministic GridWorld in which a tabular Q-Learning agent learns to reach a goal while avoiding fixed walls and a moving obstacle. The learned greedy policy is evaluated against a random policy and a Value Iteration planning reference.
+
+This project is implemented from scratch in Python, including the GridWorld environment, transition logic, and tabular Q-Learning agent.
 
 ## Environment
 
@@ -108,5 +110,6 @@ Value Iteration uses the environment's known transition model to compute an opti
 ## Scope and limitations
 
 The map, start position, goal position, and moving-obstacle route remain fixed throughout the experiments. Testing all eight obstacle phases checks different starting timings of the same obstacle; it does not test generalization to unseen maps or different start and goal positions. The tabular Q-table is appropriate for this small discrete state space, but it does not scale well to large or continuous environments.
-"# BasicGridWorld" 
-"# BasicGridWorld" 
+
+"# BasicGridWorld"
+"# BasicGridWorld"
