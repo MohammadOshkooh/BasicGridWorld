@@ -111,5 +111,3 @@ Value Iteration uses the environment's known transition model to compute an opti
 
 The map, start position, goal position, and moving-obstacle route remain fixed throughout the experiments. Testing all eight obstacle phases checks different starting timings of the same obstacle; it does not test generalization to unseen maps or different start and goal positions. The tabular Q-table is appropriate for this small discrete state space, but it does not scale well to large or continuous environments.
 
-"# BasicGridWorld"
-"# BasicGridWorld"
